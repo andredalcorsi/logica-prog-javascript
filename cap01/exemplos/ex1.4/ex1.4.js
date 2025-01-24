@@ -1,0 +1,13 @@
+const fruta = "Banana"
+const preco = 3.50
+const levar = true
+
+let novoValor 
+
+console.log(typeof fruta) // string
+console.log (typeof preco) // number 
+console.log (typeof levar) // boolean
+console.log (typeof novoValor) // undefined
+
+console.log (Number.isInteger(22)) // true 
+console.log(Number.isInteger(3.50)) // false
