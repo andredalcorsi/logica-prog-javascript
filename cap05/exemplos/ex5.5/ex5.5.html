@@ -12,13 +12,19 @@
     </h1>
 <form>
     <p>Descrição da Conta: 
-        <input type="text" name="inDescricao" id="inDescricao" required>
+        <input type="text" name="billDesc" id="billDesc" required>
     </p>
 
     <p> Valor a pagar:
-        <input type="number" name="" id="">
+        <input type="number" min="0" step="0.01" name="billPrice" id="billPrice" required>
     </p>
+
+    <input type="submit" value="Registrar  Conta">
 </form>    
+
+<pre id="resp"></pre>
+<pre id="resp2"></pre>
+
 </body>
 <script src="ex5.5.js"></script>
 </html>
